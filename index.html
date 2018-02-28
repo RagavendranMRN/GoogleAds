@@ -17,10 +17,12 @@
 </script>
     <script type="text/javascript">
     var clicks = 0;
+        var multiples;
     function onClick() {
         clicks += 1;
+        multiples = clicks % 5;
         document.getElementById("clicks").innerHTML = clicks;
-        if(clicks % 5==0)
+        if(multiples==0)
         {
           (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-5091444114550563",
