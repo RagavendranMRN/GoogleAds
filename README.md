@@ -1,1 +1,3 @@
 # GoogleAds
+
+This project is an example for implementing Google ADS in your website. You have to create an account with Adsense to get a key. In this specific project, there is a button on the website which when clicked for 5 times will display the ad for 10 secs. similarly it will display the ad for 10 clicks, 15 clicks and so on...
